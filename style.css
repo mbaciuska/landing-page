@@ -47,6 +47,11 @@
 
 }
 
+h1 { 
+    
+    margin-top: 0px;
+
+}
 
 .title {
 
@@ -102,6 +107,7 @@ button {
     justify-content: center;
     flex: 1,1,0;
     flex-wrap: wrap;
+    overflow: hidden;
 
 }
 
@@ -113,10 +119,49 @@ button {
     margin-left: 48px;
     align-items: center;
     justify-content: center;
-    max-width: 500px;
-    width: 100%;
-    height:auto;
-    overflow:hidden;
-    flex: 1;
+    flex: 1 1 0;
     border-radius: 15px;
+    orientation: landscape;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+
+
+.section2 {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.ill {
+
+    display: flex;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    margin: 5px;
+    object-fit: cover;
+
+}
+
+.smalltext {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
